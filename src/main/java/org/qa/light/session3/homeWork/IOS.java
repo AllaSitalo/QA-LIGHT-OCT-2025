@@ -1,7 +1,7 @@
 package org.qa.light.session3.homeWork;
 
 public class IOS implements IPhone {
-    //TODO: create classes IOS and Android which implement IPhone
+    //create classes IOS and Android which implement IPhone
     @Override
     public void call() {
         System.out.println("IOS телефонує за набраним номером");

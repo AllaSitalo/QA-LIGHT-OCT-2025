@@ -5,7 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //TODO: unlock, make call, lock screen for both phones
+        //unlock, make call, lock screen for both phones
         Android samsung = new Android();
         IOS iphone17 = new IOS();
 
@@ -15,7 +15,7 @@ public class Main {
         usePhone(iphone17);
 
     }
-    //TODO: unlock, make call, lock screen for both phones
+
     public static void usePhone(IPhone phone) {
         phone.unlockScreen();
         phone.call();
