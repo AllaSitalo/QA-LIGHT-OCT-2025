@@ -1,6 +1,6 @@
 package org.qa.light.session3.homeWork;
 
-public class Android implements IPhone {
+public class Android extends BasePhone implements IPhone {
     //create classes IOS and Android which implement IPhone
     @Override
     public void call() {
