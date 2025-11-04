@@ -26,7 +26,6 @@ public class HW_API {
                 .body("results[0].location.street.number", Matchers.notNullValue())
                 .body("results[0].location.street.name", Matchers.notNullValue());
 
-        System.out.println("Локація першого користувача");
         System.out.println(r.extract().response().prettyPrint());
 
     }
