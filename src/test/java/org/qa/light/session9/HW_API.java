@@ -25,7 +25,7 @@ public class HW_API {
                 .contentType(ContentType.JSON)
                 .body("results[0].location.street.number", Matchers.notNullValue())
                 .body("results[0].location.street.name", Matchers.notNullValue());
-
+        System.out.println("Вивід результату");
         System.out.println(r.extract().response().prettyPrint());
 
     }
